@@ -165,6 +165,7 @@ h5, .h5 {
   display: inline-block;
   text-align: justify;
   font-family:Verdana, Geneva, Tahoma, sans-serif
+  color: #6c757d
 }
 
 h6, .h6 {
@@ -259,7 +260,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -1141,7 +1142,9 @@ progress {
   }
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -7605,6 +7608,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
   background-color: #C46563; 
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .my-4 {
@@ -8123,6 +8127,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .text-black-50 {
