@@ -137,8 +137,13 @@ h3, .h3 {
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: calc(1.275rem + 0.3vw);
   }
+}
+
+a:link {
+  text-decoration: none;
+  color:white;
 }
 
 h4, .h4 {
@@ -255,11 +260,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #C46563;
   text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color:#c46563;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
