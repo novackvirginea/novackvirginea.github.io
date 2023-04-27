@@ -610,6 +610,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .img-sobremim {
