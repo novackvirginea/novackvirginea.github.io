@@ -143,7 +143,7 @@ h3, .h3 {
 
 a:link {
   text-decoration: none;
-  color:white;
+  color: #C46563; 
 }
 
 h4, .h4 {
@@ -8052,7 +8052,6 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
-  margin-top: 12px;
 }
 
 .text-capitalize {
